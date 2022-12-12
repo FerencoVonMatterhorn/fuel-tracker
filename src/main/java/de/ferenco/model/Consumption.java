@@ -1,4 +1,4 @@
-package de.ferenco.hibernate.orm.panache;
+package de.ferenco.model;
 
 import io.quarkus.hibernate.reactive.panache.PanacheEntity;
 
@@ -9,7 +9,7 @@ import java.util.Date;
 
 @Entity
 @Cacheable
-public class ConsumptionEntry extends PanacheEntity {
+public class Consumption extends PanacheEntity {
     @Column()
     public Date date;
 
